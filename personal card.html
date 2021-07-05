@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Card</title>
+	<style>
+
+		body
+		{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			background-color: white;
+			font-family: "verdana",sans-serif;
+		}
+		
+		#background
+		{
+			background: #adadad;
+			width: 900px;
+			height: 600px;
+			margin:0 auto ;
+			top: 100px;
+			right: 15px;
+			 position: relative;
+		}
+
+		.card
+		{
+			background-color: white;
+			border: 3px solid black;
+			width: 800px;
+			height: 450px;
+			margin: 0 auto;
+			bottom: 70px;
+			right: 50px;
+			position: absolute;
+		}
+
+		.titre
+		{
+			margin:0 39px;
+		}
+
+		.vert
+		{
+			background-color: #004206;
+			width: 550px;
+			height: 300px;
+			bottom: 80px;
+			position: absolute;
+
+		}
+
+		.vert ul li 
+		{
+			list-style: none;
+			color: yellow;
+			margin-bottom: 17px;
+		}
+
+		.vert a
+		{
+			text-decoration: none;
+			font-size: 16px;
+		}
+
+		.divImg
+		{
+			position: relative;
+		}
+
+		.divImg img
+		{
+			height: 300px;
+			width: 250px;
+			right: 1px;
+			position: absolute;
+			top:1.3px ;
+		}
+
+		.lastP
+		{
+			bottom: 0;
+			position: relative;
+		}
+
+		.lastP p
+		{
+			top: 315px;
+			position: absolute;
+			right: 205px;
+			font-size: 16px;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div id="background">
+
+		<div class="card">
+
+			<div class="titre"><h2>Doraemon</h2></div>
+
+			<div class="vert">
+				
+					<ul>
+						<li>My Street</li>
+						<li>The Town</li>
+						<li>Big House</li>
+						<li>JP</li>
+						<li>ZO50 AMU</li>
+						<br>
+						<li><b>Tel:</b>01234 567 890</li>
+						<li><b>Mail:</b><a href="#"><i>guess@nothere.com</i></a></li>
+					</ul>
+				
+			</div>
+
+			<div class="divImg">
+			<img src="doraemon.jpg">
+			</div>
+
+			<div class="lastP"><p>Editing,Writing , and Web development services</p></div>
+
+		</div>
+		
+	</div>
+
+</body>
+</html>
